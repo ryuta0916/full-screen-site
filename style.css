@@ -117,3 +117,35 @@ a{
     letter-spacing: 0.5rem;
     box-shadow: 5px 5px 10px 0 rgb(0 0 0/50%);
 }
+
+@media screen and (min-width: 768px){
+    /* ヘッダー */
+    .main-nav{
+        display: flex;
+        position: static;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .main-nav li{
+        margin-left: 20px;
+    }
+
+    .menu-toggle{
+        display: none;
+    }
+
+    /* コンテンツ */
+    .wrapper{
+        padding: 0;
+    }
+
+    .home-content{
+        margin-top: 10%;
+    }
+
+    .page-title{
+        font-size: 6rem;
+    }
+}
