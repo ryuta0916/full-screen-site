@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: "YU Gothic Medium","游ゴシック　Medium",YuGothic,"游ゴシック体","ヒラギノ角ゴ　Pro w3",sans-serif;
+    line-height: 1.7;
+    color: #5c791b;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* header */
+
+.page-header{
+    display: flex;
+    justify-content: flex-end;
+
+} 
+
+.main-nav{
+    display: flex;
+   
+    font-size: 1.25rem;
+    margin-top: 36px;
+    text-transform: uppercase;
+    list-style: none;
+   
+    
+}
+
+.main-nav li{
+    margin-left: 34px;
+}
+
+
+
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 4%;
+
+}
+
+
+
+
+
+
+
+
+/* HOME */
+
+
+
+.home-content{
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.home-content p {
+    font-size: 1.25rem;
+    margin: 10px 0 42px;
+}
+
+/* 見出し */
+.page-title{
+    font-size: 4rem;
+    font-family: 'Philosopher',serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+}
+
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+}
+
+
+
+#home{
+    background-image: url(shinnrinn.jpg);
+    background-color: #33160e;
+    background-blend-mode: darken;
+    min-height: 100vh;
+}
+
+#home .page-title{
+    text-transform: none;
+}
+
+/* ボタン */
+
+.button{
+    font-size: 1.25rem;
+    background: #5c791b;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    transition: all 1s;
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background-color: #000f;
+    letter-spacing: 0.5rem;
+    box-shadow: 5px 5px 10px 0 rgb(0 0 0/50%);
+}
