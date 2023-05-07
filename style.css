@@ -118,23 +118,18 @@ a{
     box-shadow: 5px 5px 10px 0 rgb(0 0 0/50%);
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 568px){
     /* ヘッダー */
     .main-nav{
-        display: flex;
-        position: static;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
+        display: block;
+        font-size: 2.24rem;
     }
 
     .main-nav li{
         margin-left: 20px;
     }
 
-    .menu-toggle{
-        display: none;
-    }
+    
 
     /* コンテンツ */
     .wrapper{
@@ -142,7 +137,7 @@ a{
     }
 
     .home-content{
-        margin-top: 10%;
+        margin-top: 30%;
     }
 
     .page-title{
