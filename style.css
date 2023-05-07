@@ -121,9 +121,7 @@ a{
 @media screen and (max-width: 568px){
     /* ヘッダー */
 
-    body{
-        width: 100%;
-    }
+   
     .main-nav{
         display: block;
         font-size: 2.24rem;
